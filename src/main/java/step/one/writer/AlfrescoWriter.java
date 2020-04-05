@@ -7,8 +7,7 @@ import java.util.stream.Collectors;
 
 import static step.one.constants.ApplicationConstants.ALFRESCO;
 import static step.one.constants.ApplicationConstants.FIZZ;
-import static step.one.report.Report.alfrescoCounter;
-import static step.one.report.Report.fizzCounter;
+import static step.one.report.Report.*;
 import static step.one.util.ApplicationUtil.checkIfNumberDivisibleBy_3_Or_5_Or_15_AndPopulateList;
 
 public class AlfrescoWriter implements Writer {
@@ -47,6 +46,10 @@ public class AlfrescoWriter implements Writer {
                         if (Integer.parseInt(string) % 3 == 0) {
                             string = string.replace(string, FIZZ);
                             fizzCounter++;
+                        }
+                        Integer integer = new Integer(string);
+                        if (integer.getClass().getName().equals("java.lang.Integer")) {
+                            integerCounter++;
                         }
                     } catch (NumberFormatException e) {
                         LOG.info("Number format exception has been caught for " + string);

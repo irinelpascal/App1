@@ -23,7 +23,6 @@ public class ApplicationUtil {
             fizzBuzzCounter++;
         } else {
             strings.add(integerValue);
-            integerCounter++;
         }
     }
 }

@@ -19,12 +19,12 @@ public class App {
 
     public static void main(String[] args) {
         new App().processAndViewStreamOfNumbers();
+        Report.displayReport();
     }
 
     public void processAndViewStreamOfNumbers() {
         readerProcessor.processReading();
         writerProcessor = new WriterProcessor(readerProcessor);
-        showStream(writerProcessor);
         showStream(new AlfrescoWriter(writerProcessor));
     }
 

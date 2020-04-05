@@ -5,3 +5,4 @@ step\one\writer\WriterProcessor.class
 step\one\writer\AlfrescoWriter.class
 step\one\util\ApplicationUtil.class
 step\one\writer\Writer.class
+step\one\report\Report.class
