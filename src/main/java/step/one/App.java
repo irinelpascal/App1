@@ -1,7 +1,6 @@
 package step.one;
 
 import step.one.reader.ReaderProcessor;
-import step.one.writer.AlfrescoWriter;
 import step.one.writer.Writer;
 import step.one.writer.WriterProcessor;
 
@@ -24,7 +23,6 @@ public class App {
         readerProcessor.processReading();
         writerProcessor = new WriterProcessor(readerProcessor);
         showStream(writerProcessor);
-        showStream(new AlfrescoWriter(writerProcessor));
     }
 
     private void showStream(Writer writer) {
