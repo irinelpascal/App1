@@ -1,5 +1,7 @@
 step\one\App.class
 step\one\reader\ReaderProcessor.class
+step\one\constants\ApplicationConstants.class
 step\one\writer\WriterProcessor.class
 step\one\writer\AlfrescoWriter.class
+step\one\util\ApplicationUtil.class
 step\one\writer\Writer.class
