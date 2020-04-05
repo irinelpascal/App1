@@ -1,6 +1,7 @@
 package step.one;
 
 import step.one.reader.ReaderProcessor;
+import step.one.report.Report;
 import step.one.writer.AlfrescoWriter;
 import step.one.writer.Writer;
 import step.one.writer.WriterProcessor;

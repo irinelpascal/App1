@@ -4,6 +4,7 @@ import java.util.List;
 
 import static step.one.constants.ApplicationConstants.BUZZ;
 import static step.one.constants.ApplicationConstants.FIZZBUZZ;
+import static step.one.report.Report.*;
 
 public class ApplicationUtil {
 
@@ -16,10 +17,13 @@ public class ApplicationUtil {
             strings.add(word);
         } else if (number % 5 == 0 && number % 3 != 0) {
             strings.add(BUZZ);
+            buzzCounter++;
         } else if (number % 15 == 0) {
             strings.add(FIZZBUZZ);
+            fizzBuzzCounter++;
         } else {
             strings.add(integerValue);
+            integerCounter++;
         }
     }
 }
