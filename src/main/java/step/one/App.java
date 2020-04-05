@@ -23,7 +23,6 @@ public class App {
     public void processAndViewStreamOfNumbers() {
         readerProcessor.processReading();
         writerProcessor = new WriterProcessor(readerProcessor);
-        showStream(writerProcessor);
         showStream(new AlfrescoWriter(writerProcessor));
     }
 
