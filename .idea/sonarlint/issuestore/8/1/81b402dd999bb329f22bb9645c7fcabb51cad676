@@ -1,5 +1,15 @@
 
-H
-java:S1168"+Return an empty collection instead of null.(¥¹ï8„ªã·”.
-P
-java:S1068"3Remove this unused "writerProcessor" private field.(†˜›ô8„ªã·”.
+Q
+java:S18742"/Remove this use of "Integer"; it is deprecated.(š”ƒ‘ÿÿÿÿÿ8ÊáÌÑ”.
+I
+java:S18723"'Use an "instanceof" comparison instead.( œÉÉûÿÿÿÿ8ÊáÌÑ”.
+I
+java:S1602",Remove useless curly braces around statement(şÂÆÿ8ÊáÌÑ”.
+S
+java:S2696&"6Make the enclosing method "static" or remove this set.(åÃÇ†8ÊáÌÑ”.
+S
+java:S26960"6Make the enclosing method "static" or remove this set.(’¼‹ˆ8ÊáÌÑ”.
+c
+java:S21332"ARemove this object instantiation and use "Integer.class" instead.(š”ƒ‘ÿÿÿÿÿ8ÊáÌÑ”.
+S
+java:S26964"6Make the enclosing method "static" or remove this set.(»’â8ÊáÌÑ”.
